@@ -213,21 +213,18 @@ main {
 	fill: #fff;
 }
 #info {
-	display: flex;
 	position: fixed;
 	top: 0;
+	padding: 1.2vw;
 	right: 0;
 	z-index: 5;
 	width: 4.68vw;
 	height: 4.68vw;
-	background-color: #30bcba;
+	background-color: rgba(45, 184, 185, 0.8);
 }
 #info:hover {
 	cursor: pointer;
 }
 #info svg {
 	fill: #fff;
-	width: 60%;
-	height: 60%;
-	margin: auto;
 }
