@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	background-color: #242b2e;
 }
 header {
 	position: fixed;
@@ -9,7 +10,6 @@ header {
 	z-index: 50;
 	height: 100vh;
 	width: 15.62vw;
-	background-color: #242b2e;
 	color: #6b7072;
 	box-shadow: 15px 0 20px #00000070;
 }
@@ -196,7 +196,7 @@ main {
 	margin-bottom: 0.78vw;
 }
 .work-box h3 {
-	font-size: 0.62vw;
+	font-size: 0.72vw;
 	font-weight: 400;
 }
 .work-box h3::after {
@@ -227,4 +227,26 @@ main {
 }
 #info svg {
 	fill: #fff;
+}
+#info-box {
+	position: fixed;
+	top: 4.68vw;
+	right: 0;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 1vw;
+	transform: translateX(100%);
+	transition: all 0.35s ease-in-out;
+}
+#info-box.open {
+	transform: translateX(0);
+}
+#info-box li {
+	padding: 0.3vw;
+	padding-right: 1.2vw;
+	font-size: 0.83vmax;
+}
+#info-box li svg {
+	margin-right: 0.7vw;
 }
